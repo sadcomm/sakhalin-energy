@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import {PrizmBreadcrumbsModule, PrizmPanelModule} from "@prizm-ui/components";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {RouterOutlet} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     PrizmPanelModule,
     PrizmBreadcrumbsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterOutlet
   ],
   providers: [],
   bootstrap: [AppComponent]
